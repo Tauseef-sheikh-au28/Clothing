@@ -1,0 +1,59 @@
+// import styled from "styled-components";
+// import { Link } from "react-router-dom";
+
+// export const NavigationContainer = styled.div`
+//   height: 70px;
+//   width: 100%;
+//   display: flex;
+//   justify-content: space-between;
+//   margin-bottom: 25px;
+//   background-color: rgba(42, 185, 6, 0.267);
+// `;
+
+// export const LogoContainer = styled(Link)`
+//   padding: 1px;
+// `;
+
+// export const NavLinksContainer = styled.div`
+//   width: 50%;
+//   height: 100%;
+//   display: flex;
+//   align-items: center;
+//   justify-content: flex-end;
+// `;
+
+.navigation {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    background-color: rgba(42, 185, 6, 0.267);
+
+  .logo-container{
+    padding: 1px;
+  }
+  .logo{
+    color: black;
+    font-size: 1.5rem;
+  }
+  .sub-logo{
+    color: black;
+    margin-top: -18px;
+  }
+
+    .nav-links-container {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      .nav-link {
+        padding: 10px 15px;
+        cursor: pointer;
+        color: white;
+      }
+    }
+
+  }
